@@ -13,17 +13,17 @@
       <form action="" method="get" class="mock-form">
         <div class="mock-form">
           <label for="user-name">Name</label>
-          <input type="text" id="user-name" required />
+          <input type="text" class="user-data" required />
         </div>
         <div class="mock-form">
           <label for="user-email">Email</label>
-          <input type="email" id="user-email" required />
+          <input type="email" class="user-data" required />
         </div>
         <div class="mock-form">
           <label for="user-password">Password</label>
           <input
             type="password"
-            id="user-password"
+            class="user-data"
             required
             minlength="12"
             value="1234"
@@ -35,12 +35,7 @@
         </div>
         <div class="mock-form">
           <label for="user-repeat-password">Password (again)</label>
-          <input
-            type="password"
-            id="user-repeat-password"
-            required
-            minlength="12"
-          />
+          <input type="password" class="user-data" required minlength="12" />
         </div>
         <div class="mock-form">
           <input type="submit" value="Create Account" id="create-account" />
