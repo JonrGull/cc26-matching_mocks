@@ -5,45 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Matching Mock</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
   </head>
   <body>
-    <h1>New Account</h1>
-    <form action="" method="get" class="mock-form">
-      <div class="mock-form">
-        <label for="user-name">Name</label>
-        <input type="text" id="user-name" required />
-      </div>
-      <div class="mock-form">
-        <label for="user-email">Email</label>
-        <input type="email" id="user-email" required />
-      </div>
-      <div class="mock-form">
-        <label for="user-password">Password</label>
-        <input
-          type="password"
-          id="user-password"
-          required
-          minlength="12"
-          value="1234"
-        />
-        <br />
-        <small>12 or more combination of letters, numbers, and symbols</small>
-      </div>
-      <div class="mock-form">
-        <label for="user-repeat-password">Password (again)</label>
-        <input
-          type="password"
-          id="user-repeat-password"
-          required
-          minlength="12"
-        />
-      </div>
-      <div class="mock-form">
-        <input type="submit" value="Create Account" id="create-account" />
-      </div>
-      <div class="mock-form">
-        <a href="">Already have an account? Sign in</a>
-      </div>
-    </form>
+    <div class="login-container">
+      <h1>New Account</h1>
+      <form action="" method="get" class="mock-form">
+        <div class="mock-form">
+          <label for="user-name">Name</label>
+          <input type="text" id="user-name" required />
+        </div>
+        <div class="mock-form">
+          <label for="user-email">Email</label>
+          <input type="email" id="user-email" required />
+        </div>
+        <div class="mock-form">
+          <label for="user-password">Password</label>
+          <input
+            type="password"
+            id="user-password"
+            required
+            minlength="12"
+            value="1234"
+          />
+          <br />
+          <p id="pwd-warning">
+            12 or more combination of letters, numbers, and symbols
+          </p>
+        </div>
+        <div class="mock-form">
+          <label for="user-repeat-password">Password (again)</label>
+          <input
+            type="password"
+            id="user-repeat-password"
+            required
+            minlength="12"
+          />
+        </div>
+        <div class="mock-form">
+          <input type="submit" value="Create Account" id="create-account" />
+        </div>
+        <div class="mock-form">
+          <a href="">Already have an account? Sign in</a>
+        </div>
+      </form>
+    </div>
   </body>
 </html>
